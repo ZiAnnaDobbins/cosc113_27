@@ -1,17 +1,22 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main()
-
+public class StudentInfo {
 
     String Fn;
     String Ln;
     int id;
     double GPA;
 
-
-    public static <string> void main(string[] args){
+    public static void main(String[] args){
         System system;
-        system.out.println("hello java");
+        System.out.println("hello java");
 
-
+        StudentInfo st_1;
+        st_1 = new StudentInfo();
+    }
 }
+
+
+
+
+
